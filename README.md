@@ -20,7 +20,7 @@ Antes de começar, certifique-se de ter o seguinte instalado em seu ambiente de 
    git clone https://github.com/davijesuss/crud_laravel
    
 2. Copie o arquivo de ambiente:
-3. 
+
     ```bash
    cp .env.example .env
    
@@ -30,22 +30,22 @@ Abra o arquivo .env em um editor de texto e configure as variáveis de ambiente,
 
 Execute o seguinte comando para instalar as dependências do Composer:
 
-```bash
-composer install
+   
+    composer install
 
 ## Migração do Banco de Dados
 
 Execute as migrações para criar as tabelas no banco de dados:
 
-```bash
-php artisan migrate
+    
+    php artisan migrate
 
 ## Iniciando o Servidor
 
 Inicie o servidor de desenvolvimento:
 
-```bash
-php artisan serve
+    
+    php artisan serve
 
 ## Notas Adicionais
 Este projeto é um exercício prático e não foi projetado para ser utilizado em um ambiente de produção real.
